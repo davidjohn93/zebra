@@ -1,0 +1,65 @@
+
+
+.navbar {
+	/* height: 70px; */
+}
+.navbar .navbar-brand {
+	/* color: #FFFFFF; */
+}
+.navbar .navbar-brand svg {
+	width: 45px;
+	height: 45px;
+}
+.navbar {}
+
+body {
+	padding-top: 65px;
+}
+
+
+.site-header {
+	padding: 5px 0;
+	height: 65px;
+	z-index: 1000;
+}
+.site-header .brand {
+	display: inline-block;
+}
+.site-header .brand svg {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+}
+
+
+.menubar-full {
+	z-index: 1001;
+	height: calc(100vh - 65px);
+	/* overflow-y: auto; */
+	transition: all .30s ease-in-out;
+}
+.menubar-full.active {}
+.menubar-full > .container {
+	overflow-y: auto;
+	height: 100%;
+}
+.menubar-full .card {
+	height: 100px;
+}
+
+
+
+
+
+
+
+.section-main {}
+.section-main .card {
+	height: 160px;
+}
+
+@media (min-width: 992px) {
+	.section-main .card {
+		height: 220px;
+	}
+}
